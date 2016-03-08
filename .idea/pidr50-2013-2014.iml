@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="google-appengine-python" name="Google App Engine (Python)">
+      <configuration>
+        <option name="rootFolder" value="C:\Users\od\Dropbox\Telecom Nancy\Programmation\Python\2A\pidr50-2013-2014" />
+        <option name="sdkFolder" value="C:/Program Files (x86)/Google/google_appengine" />
+        <option name="templatesFolder" value="" />
+        <option name="email" value="thomas.herbeth@telecomnancy.net" />
+        <option name="gp" value="dfdadfdfdfeedf99dfc7dfc8dff8df90dfecdffddfcedfc7dfd9" />
+        <option name="oauth2" value="false" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 2.7.6 (C:/djangostack-1.5.9-0/python/python.exe)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Google App Engine SDK" level="project" />
+    <orderEntry type="library" name="jquery-2.0.3" level="application" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="C:\Users\od\Dropbox\Telecom Nancy\Programmation\Python\2A\pidr50-2013-2014\templates" />
+      </list>
+    </option>
+  </component>
+</module>
+

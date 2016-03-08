@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block jumbotron %}
+<div class="jumbotron">
+    <h2>PIDR 50 2013-2014</h2>
+    <h3 class="text-muted">TELECOM Nancy</h3>
+    <p>Visualisation d'informations géo-référencées</p>
+    <a href="/js/pidr.html" class="btn btn-primary btn-lg" role="button">Voir la carte</a>
+</div>
+{% endblock %}
+
+{% block page %}
+<table class="table table-hover">
+    <tr>
+        <td>Demo</td>
+        <td>
+            <a href="/init">Init</a>
+            <br>
+            <a href="/data">Data</a>
+            <br>
+            <a href="/put">Put</a>
+            <br>
+            <a href="/run">Run</a>
+            <br>
+            <a href="/add_poly_point">Add random polyline point</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Nancy</td>
+        <td>
+            <a href="/nancy/init">Données statiques</a>
+            <br/>
+            <a href="/nancy/data">Données dynamiques</a>
+            <br/>
+            <a href="/nancy/update">Ajouter les lignes de bus</a>
+        </td>
+    </tr>
+</table>
+{% endblock %}

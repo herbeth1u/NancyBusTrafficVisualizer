@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Interactive map test</title>
+    <link rel="stylesheet" href="lib/map.css">
+    <script src="lib/map.js"></script>
+</head>
+
+<body>
+    <div id="map"></div>
+</body>
+
+<script type="text/javascript">
+    var map_id = 'map'; // div's id
+    var SERVER =
+        "http://pidr50-2013-2014.appspot.com/nancy/";
+        //"http://localhost:8080/nancy/";
+    var REFRESH = 1000 * 1; // 1 second
+    var ICON_SIZE = [16, 18];
+
+    start(map_id, SERVER, REFRESH, ICON_SIZE);
+</script>
+
+</html>
